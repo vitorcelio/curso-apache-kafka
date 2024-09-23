@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54dbe8a2-a7d0-4367-9a5f-82237e654ea4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../payment-service/src/main/java/com/payment/config/KafkaAdminConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../payment-service/src/main/java/com/payment/config/JsonProducerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../payment-service/src/main/java/com/payment/service/impl/PaymentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../payment-service/src/main/java/com/payment/service/impl/PaymentServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,10 +24,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -91,7 +93,8 @@
       <workItem from="1727058580972" duration="1152000" />
       <workItem from="1727061466714" duration="11000" />
       <workItem from="1727061487699" duration="6340000" />
-      <workItem from="1727117246870" duration="2934000" />
+      <workItem from="1727117246870" duration="3809000" />
+      <workItem from="1727127376946" duration="497000" />
     </task>
     <servers />
   </component>
