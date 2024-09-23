@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54dbe8a2-a7d0-4367-9a5f-82237e654ea4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/consumer/kafka/exceptions/ErrorCustomHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/consumer/kafka/custom/ConsumerCustomListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/consumer/kafka/custom/ConsumerCustomListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/consumer/kafka/listeners/ConsumerListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/consumer/kafka/listeners/ConsumerListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../producer-kafka/src/main/java/com/producer/kafka/config/KafkaAdminConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../producer-kafka/src/main/java/com/producer/kafka/config/KafkaAdminConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/consumer/kafka/exceptions/ErrorCustomHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/consumer/kafka/exceptions/ErrorCustomHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +23,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -44,25 +45,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.ConsumerKafkaApplication.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/celio/Documents/Cursos/Projetos/kafka/consumer-kafka/src/main/java/com/consumer/kafka",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ConsumerKafkaApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/celio/Documents/Cursos/Projetos/kafka/consumer-kafka/src/main/java/com/consumer/kafka&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="ConsumerKafkaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="consumer-kafka" />
@@ -90,7 +91,8 @@
       <updated>1727058579797</updated>
       <workItem from="1727058580972" duration="1152000" />
       <workItem from="1727061466714" duration="11000" />
-      <workItem from="1727061487699" duration="6164000" />
+      <workItem from="1727061487699" duration="6340000" />
+      <workItem from="1727117246870" duration="1426000" />
     </task>
     <servers />
   </component>
