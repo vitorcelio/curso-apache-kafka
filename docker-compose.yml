@@ -35,6 +35,27 @@ services:
       - "19000:9000"
     environment:
       KAFKA_BROKERCONNECT: kafka:29092
+  
+  payment:
+    image: vitorcelio/payment-service:1.0.1
+    networks:
+      - broker-kafka
+    depends_on:
+      - kafka
+    ports:
+      - "8000:8000"
+    environment:
+      KAFKA_HOST: kafka:29092
+
+  consumer-payment:
+    image: vitorcelio/json-consumer-payment:1.0.1
+    networks:
+      - broker-kafka
+    depends_on:
+      - kafka
+      - payment
+    environment:
+      KAFKA_HOST: kafka:29092
 
 networks:
   broker-kafka:
