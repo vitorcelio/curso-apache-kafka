@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54dbe8a2-a7d0-4367-9a5f-82237e654ea4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/consumer/kafka/config/StringConsumerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/consumer/kafka/listeners/ConsumerListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../producer-kafka/src/main/java/com/producer/kafka/services/StringProducerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../producer-kafka/src/main/java/com/producer/kafka/services/StringProducerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/consumer/kafka/custom/ConsumerCustomListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/consumer/kafka/config/StringConsumerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/consumer/kafka/config/StringConsumerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/consumer/kafka/listeners/ConsumerListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/consumer/kafka/listeners/ConsumerListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +32,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2mS8NrdLZU1Cym75e0U1KDToy68" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -45,6 +45,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.ConsumerKafkaApplication.executor": "Run",
     "git-widget-placeholder": "master",
@@ -83,7 +87,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727058579797</updated>
-      <workItem from="1727058580972" duration="820000" />
+      <workItem from="1727058580972" duration="1152000" />
+      <workItem from="1727061466714" duration="11000" />
+      <workItem from="1727061487699" duration="4895000" />
     </task>
     <servers />
   </component>

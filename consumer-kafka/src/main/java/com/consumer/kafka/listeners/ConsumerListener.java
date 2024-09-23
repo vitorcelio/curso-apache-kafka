@@ -1,18 +1,27 @@
 package com.consumer.kafka.listeners;
 
-import lombok.RequiredArgsConstructor;
+import com.consumer.kafka.custom.ConsumerCustomListener;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;
 
-@RequiredArgsConstructor
 @Log4j2
 @Component
 public class ConsumerListener {
 
-    @KafkaListener(groupId = "group-1", topics = "topic-kafka", containerFactory = "concurrentContainerFactory")
-    public void listener(String message) {
-       log.info("Mensagem recebida: {}", message);
+    @ConsumerCustomListener(groupId = "grupo-1")
+    public void create(String message) {
+        log.info("CREATE ::: Mensagem recebida: {}", message);
+    }
+
+    @ConsumerCustomListener(groupId = "grupo-1")
+    public void log(String message) {
+        log.info("LOG ::: Mensagem recebida: {}", message);
+    }
+
+    @KafkaListener(groupId = "grupo-2", topics = "topic-kafka", containerFactory = "validMessageContainerFactory")
+    public void history(String message) {
+        log.info("HISTORY ::: Mensagem recebida: {}", message);
     }
 
 }
