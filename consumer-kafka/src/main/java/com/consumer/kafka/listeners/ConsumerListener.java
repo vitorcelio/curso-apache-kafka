@@ -1,6 +1,7 @@
 package com.consumer.kafka.listeners;
 
 import com.consumer.kafka.custom.ConsumerCustomListener;
+import lombok.SneakyThrows;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;
@@ -9,9 +10,11 @@ import org.springframework.stereotype.Component;
 @Component
 public class ConsumerListener {
 
+    @SneakyThrows
     @ConsumerCustomListener(groupId = "grupo-1")
     public void create(String message) {
         log.info("CREATE ::: Mensagem recebida: {}", message);
+        throw new IllegalArgumentException("EXCEPTION ...");
     }
 
     @ConsumerCustomListener(groupId = "grupo-1")
